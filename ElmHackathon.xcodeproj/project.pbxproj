@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83C49FA920749B60009ED9FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C49FA820749B60009ED9FF /* AppDelegate.swift */; };
+		83C49FAB20749B60009ED9FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C49FAA20749B60009ED9FF /* ViewController.swift */; };
+		83C49FAE20749B60009ED9FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C49FAC20749B60009ED9FF /* Main.storyboard */; };
+		83C49FB020749B60009ED9FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C49FAF20749B60009ED9FF /* Assets.xcassets */; };
+		83C49FB320749B60009ED9FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C49FB120749B60009ED9FF /* LaunchScreen.storyboard */; };
+		83C49FBE20749B60009ED9FF /* ElmHackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C49FBD20749B60009ED9FF /* ElmHackathonTests.swift */; };
+		83C49FC920749B61009ED9FF /* ElmHackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C49FC820749B61009ED9FF /* ElmHackathonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83C49FBA20749B60009ED9FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C49F9D20749B60009ED9FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83C49FA420749B60009ED9FF;
+			remoteInfo = ElmHackathon;
+		};
+		83C49FC520749B61009ED9FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C49F9D20749B60009ED9FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83C49FA420749B60009ED9FF;
+			remoteInfo = ElmHackathon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83C49FA520749B60009ED9FF /* ElmHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElmHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C49FA820749B60009ED9FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83C49FAA20749B60009ED9FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83C49FAD20749B60009ED9FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83C49FAF20749B60009ED9FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83C49FB220749B60009ED9FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83C49FB420749B60009ED9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C49FB920749B60009ED9FF /* ElmHackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElmHackathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C49FBD20749B60009ED9FF /* ElmHackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElmHackathonTests.swift; sourceTree = "<group>"; };
+		83C49FBF20749B60009ED9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C49FC420749B61009ED9FF /* ElmHackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElmHackathonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C49FC820749B61009ED9FF /* ElmHackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElmHackathonUITests.swift; sourceTree = "<group>"; };
+		83C49FCA20749B61009ED9FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83C49FA220749B60009ED9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C49FB620749B60009ED9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C49FC120749B61009ED9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83C49F9C20749B60009ED9FF = {
+			isa = PBXGroup;
+			children = (
+				83C49FA720749B60009ED9FF /* ElmHackathon */,
+				83C49FBC20749B60009ED9FF /* ElmHackathonTests */,
+				83C49FC720749B61009ED9FF /* ElmHackathonUITests */,
+				83C49FA620749B60009ED9FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83C49FA620749B60009ED9FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83C49FA520749B60009ED9FF /* ElmHackathon.app */,
+				83C49FB920749B60009ED9FF /* ElmHackathonTests.xctest */,
+				83C49FC420749B61009ED9FF /* ElmHackathonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83C49FA720749B60009ED9FF /* ElmHackathon */ = {
+			isa = PBXGroup;
+			children = (
+				83C49FA820749B60009ED9FF /* AppDelegate.swift */,
+				83C49FAA20749B60009ED9FF /* ViewController.swift */,
+				83C49FAC20749B60009ED9FF /* Main.storyboard */,
+				83C49FAF20749B60009ED9FF /* Assets.xcassets */,
+				83C49FB120749B60009ED9FF /* LaunchScreen.storyboard */,
+				83C49FB420749B60009ED9FF /* Info.plist */,
+			);
+			path = ElmHackathon;
+			sourceTree = "<group>";
+		};
+		83C49FBC20749B60009ED9FF /* ElmHackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				83C49FBD20749B60009ED9FF /* ElmHackathonTests.swift */,
+				83C49FBF20749B60009ED9FF /* Info.plist */,
+			);
+			path = ElmHackathonTests;
+			sourceTree = "<group>";
+		};
+		83C49FC720749B61009ED9FF /* ElmHackathonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83C49FC820749B61009ED9FF /* ElmHackathonUITests.swift */,
+				83C49FCA20749B61009ED9FF /* Info.plist */,
+			);
+			path = ElmHackathonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83C49FA420749B60009ED9FF /* ElmHackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C49FCD20749B61009ED9FF /* Build configuration list for PBXNativeTarget "ElmHackathon" */;
+			buildPhases = (
+				83C49FA120749B60009ED9FF /* Sources */,
+				83C49FA220749B60009ED9FF /* Frameworks */,
+				83C49FA320749B60009ED9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElmHackathon;
+			productName = ElmHackathon;
+			productReference = 83C49FA520749B60009ED9FF /* ElmHackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83C49FB820749B60009ED9FF /* ElmHackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C49FD020749B61009ED9FF /* Build configuration list for PBXNativeTarget "ElmHackathonTests" */;
+			buildPhases = (
+				83C49FB520749B60009ED9FF /* Sources */,
+				83C49FB620749B60009ED9FF /* Frameworks */,
+				83C49FB720749B60009ED9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83C49FBB20749B60009ED9FF /* PBXTargetDependency */,
+			);
+			name = ElmHackathonTests;
+			productName = ElmHackathonTests;
+			productReference = 83C49FB920749B60009ED9FF /* ElmHackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83C49FC320749B61009ED9FF /* ElmHackathonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C49FD320749B61009ED9FF /* Build configuration list for PBXNativeTarget "ElmHackathonUITests" */;
+			buildPhases = (
+				83C49FC020749B61009ED9FF /* Sources */,
+				83C49FC120749B61009ED9FF /* Frameworks */,
+				83C49FC220749B61009ED9FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83C49FC620749B61009ED9FF /* PBXTargetDependency */,
+			);
+			name = ElmHackathonUITests;
+			productName = ElmHackathonUITests;
+			productReference = 83C49FC420749B61009ED9FF /* ElmHackathonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83C49F9D20749B60009ED9FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Waad Ali";
+				TargetAttributes = {
+					83C49FA420749B60009ED9FF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					83C49FB820749B60009ED9FF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83C49FA420749B60009ED9FF;
+					};
+					83C49FC320749B61009ED9FF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83C49FA420749B60009ED9FF;
+					};
+				};
+			};
+			buildConfigurationList = 83C49FA020749B60009ED9FF /* Build configuration list for PBXProject "ElmHackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83C49F9C20749B60009ED9FF;
+			productRefGroup = 83C49FA620749B60009ED9FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83C49FA420749B60009ED9FF /* ElmHackathon */,
+				83C49FB820749B60009ED9FF /* ElmHackathonTests */,
+				83C49FC320749B61009ED9FF /* ElmHackathonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83C49FA320749B60009ED9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C49FB320749B60009ED9FF /* LaunchScreen.storyboard in Resources */,
+				83C49FB020749B60009ED9FF /* Assets.xcassets in Resources */,
+				83C49FAE20749B60009ED9FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C49FB720749B60009ED9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C49FC220749B61009ED9FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83C49FA120749B60009ED9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C49FAB20749B60009ED9FF /* ViewController.swift in Sources */,
+				83C49FA920749B60009ED9FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C49FB520749B60009ED9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C49FBE20749B60009ED9FF /* ElmHackathonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C49FC020749B61009ED9FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C49FC920749B61009ED9FF /* ElmHackathonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83C49FBB20749B60009ED9FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83C49FA420749B60009ED9FF /* ElmHackathon */;
+			targetProxy = 83C49FBA20749B60009ED9FF /* PBXContainerItemProxy */;
+		};
+		83C49FC620749B61009ED9FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83C49FA420749B60009ED9FF /* ElmHackathon */;
+			targetProxy = 83C49FC520749B61009ED9FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83C49FAC20749B60009ED9FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C49FAD20749B60009ED9FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83C49FB120749B60009ED9FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C49FB220749B60009ED9FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83C49FCB20749B61009ED9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83C49FCC20749B61009ED9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83C49FCE20749B61009ED9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElmHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waadali.ElmHackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		83C49FCF20749B61009ED9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElmHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waadali.ElmHackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		83C49FD120749B61009ED9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElmHackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waadali.ElmHackathonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElmHackathon.app/ElmHackathon";
+			};
+			name = Debug;
+		};
+		83C49FD220749B61009ED9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElmHackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waadali.ElmHackathonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElmHackathon.app/ElmHackathon";
+			};
+			name = Release;
+		};
+		83C49FD420749B61009ED9FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ElmHackathonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waadali.ElmHackathonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ElmHackathon;
+			};
+			name = Debug;
+		};
+		83C49FD520749B61009ED9FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ElmHackathonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waadali.ElmHackathonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ElmHackathon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83C49FA020749B60009ED9FF /* Build configuration list for PBXProject "ElmHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C49FCB20749B61009ED9FF /* Debug */,
+				83C49FCC20749B61009ED9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C49FCD20749B61009ED9FF /* Build configuration list for PBXNativeTarget "ElmHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C49FCE20749B61009ED9FF /* Debug */,
+				83C49FCF20749B61009ED9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83C49FD020749B61009ED9FF /* Build configuration list for PBXNativeTarget "ElmHackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C49FD120749B61009ED9FF /* Debug */,
+				83C49FD220749B61009ED9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83C49FD320749B61009ED9FF /* Build configuration list for PBXNativeTarget "ElmHackathonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C49FD420749B61009ED9FF /* Debug */,
+				83C49FD520749B61009ED9FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83C49F9D20749B60009ED9FF /* Project object */;
+}
